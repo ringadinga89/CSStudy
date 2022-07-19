@@ -6,19 +6,17 @@ using System.Threading.Tasks;
 
 
 /*
- * 문자 변수 생성
- * char : 문자
+ * 문자 덧셈
  */
-
 
 namespace Book.Ch02
 {
-    internal class p85
+    internal class p73
     {
-        static void Main01(string[] args)
+        static void Main2(string[] args)
         {
-            char a = 'a';
-            Console.WriteLine(a);
+            Console.WriteLine("가" + "나");
+
         }
     }
 }

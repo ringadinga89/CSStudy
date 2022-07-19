@@ -4,22 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-
-/*
- * 오버플로우
- */
-
-namespace Book.Ch02
+namespace Book.Ch05
 {
-    internal class p81
+    internal class p216
     {
         static void Main3(string[] args)
         {
-            int a = 214783640;
-            int b = 52273;
-
-            Console.WriteLine(a + b);
+            Console.WriteLine(Math.Abs(-52273));
+            Console.WriteLine(Math.Ceiling(52.273));
         }
 
 

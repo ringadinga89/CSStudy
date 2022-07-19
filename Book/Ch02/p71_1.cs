@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 
 /*
- * 문자열 연결 연산자
- */ 
+ * 문자 선택
+ */
+
 
 
 namespace Book.Ch02
 {
-    internal class p71
+    internal class p71_2
     {
+
         static void Main33(string[] args)
         {
-            Console.WriteLine("가나다" + "라마" + "바사아" + "자차카타" + "파하");
+            Console.WriteLine("안녕하세요"[0]);
+            Console.WriteLine("안녕하세요"[1]);
+            Console.WriteLine("안녕하세요"[3]);
+
         }
     }
 }
