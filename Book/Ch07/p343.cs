@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Book.Ch07
 {
-    internal class p332
+    internal class p343
     {
-        static void Main2(string[] args)
+        static void Main3(string[] args)
         {
             List<Animal> Animals = new List<Animal>()
             {
@@ -20,7 +20,8 @@ namespace Book.Ch07
             {
                 item.Eat();
                 item.Sleep();
-           
+                ((Cat)item).Meow();
+
             }
 
         }
