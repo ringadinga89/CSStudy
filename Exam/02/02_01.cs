@@ -16,7 +16,7 @@ namespace Exam._02
 {
     internal class _02_01
     {
-        static void Main(string[] args)
+        static void Main88(string[] args)
         {
             char[] str = { 'I', ' ', 'L', 'O', 'V', 'E', ' ', 'Y', 'O', 'U' };
             int row, col;
