@@ -16,7 +16,7 @@ namespace Ch04
 {
     internal class _5_참조매개변수
     {
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             int num1 = 10;
             int num2 = 3;
