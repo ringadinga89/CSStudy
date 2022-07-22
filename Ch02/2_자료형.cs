@@ -35,8 +35,8 @@ namespace ch02
             float var1 = 0.123456789f;              // 8자리
             double var2 = 0.1234567890123456789;    // 17자리
 
-            Console.WriteLine("var1 : " +var1);
-            Console.WriteLine("var2 : " +var2);
+            Console.WriteLine("var1 : " + var1);
+            Console.WriteLine("var2 : " + var2);
 
             // 논리형
             bool b1 = true;
@@ -96,4 +96,5 @@ namespace ch02
 
 
         }
+    }
 }
