@@ -26,7 +26,7 @@ namespace Exam._03
     }
     internal class _03_06
     {
-        static void Main(string[] args)
+        static void Main6(string[] args)
         {
             Landload master = new Landload();
             master.GetMoney();
