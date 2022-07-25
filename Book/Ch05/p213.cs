@@ -8,7 +8,7 @@ namespace Book.Ch05
 {
     internal class p213
     {
-        static void Main3(string[] args)
+        static void Main5(string[] args)
         {
             // 변수를 선언합니다.
             List<int> list = new List<int>();

@@ -41,7 +41,8 @@ namespace Book.Ch07
                 }
             }
 
-            static void Main(string[] args)
+            static void Main3(string[] args)
+   
             {
                 List<Animal> Animals = new List<Animal>()
                 {
