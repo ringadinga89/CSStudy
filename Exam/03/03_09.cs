@@ -28,7 +28,7 @@ namespace Exam._03
     }
     internal class _03_09
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             _03_09 instance = new _03_09();
 
