@@ -8,7 +8,7 @@ namespace Exam._05
 {
     internal class _05_01
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             List<int> list = new List<int> { 3, 6, 2, 2, 2, 7 };
 

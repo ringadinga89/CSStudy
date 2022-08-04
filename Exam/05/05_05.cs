@@ -28,7 +28,7 @@ namespace Exam._05
     internal class _05_05
     
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             List<Apple> list1 = new List<Apple>();
             list1.Add(new Apple("파주", 3000));
@@ -51,7 +51,7 @@ namespace Exam._05
             dic.Add("gyungnam", list3);
 
             // 수원사과 출력하기
-            List<Apple> list = dic["gyeonggi"]
+            List<Apple> list = dic["gyeonggi"];
             Apple apple = list[2];
             apple.Show();
 

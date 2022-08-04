@@ -8,7 +8,7 @@ namespace Exam._06
 {
     internal class _06_08
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             ///////////////////////////////////////////
             ////// LinkedList 실습

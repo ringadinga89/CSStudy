@@ -8,7 +8,7 @@ namespace Exam._05
 {
     internal class _05_03
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             printList(createList());
         }

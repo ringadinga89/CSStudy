@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace Exam._06
 {
-
-    public delegate int Countdelegate (int What);
-
+    public delegate bool What(int x);
 
     internal class _06_04
     {
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
 
-            int n1 = Count(arr, delegate (int x) { return x % 2! = 0; });
+            int n1 = Count(arr, delegate (int x) { return x % 2 != 0; });
             int n2 = Count(arr, delegate (int x) { return x % 2 == 0; });
 
             Console.WriteLine("홀수 갯수 : " + n1);

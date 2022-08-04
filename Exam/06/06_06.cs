@@ -25,13 +25,33 @@ namespace Exam._06
     }
 
     internal class _06_06
-
     {
         static void Main(string[] args)
         {
-            List{<Student> students = new List<Student>(); 
-            student
+            List<Student> students = new List<Student>();
+            
 
+            var result = from student in students
+                         orderby student.Score descending
+                         group student by student.Score >= 80 into g
+                         select new
+                         {
+                             GroupKey = g.Key,
+                             Groups = g
+                         };
+
+            foreach (var group in result)
+            {
+                Console.WriteLine();
+                Console.WriteLine("80점 이상 : " + group.GroupKey);
+
+                foreach (var student in group.Groups)
+                {
+                    Console.WriteLine("{0}, {1}, {2}", student.Name,
+                                                       student.Age,
+                                                       student.Score);
+                }
+            }
         }
     }
 }

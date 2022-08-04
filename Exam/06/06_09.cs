@@ -8,7 +8,7 @@ namespace Exam._06
 {
     internal class _06_09
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             // 데이터베이스 접속 정보
             string server = "127.0.0.1";
@@ -36,10 +36,7 @@ namespace Exam._06
 
                 int answer = int.Parse(Console.ReadLine());
 
-                if (answer == 0)
-                {
-                    Console.WriteLine
-                }
+
             }
         }
     }
