@@ -1,0 +1,7 @@
+C:\Users\502\Desktop\CSStudy\Ch11\obj\Debug\net6.0-windows\Project2.csproj.AssemblyReference.cache
+C:\Users\502\Desktop\CSStudy\Ch11\obj\Debug\net6.0-windows\Ch11.User.resources
+C:\Users\502\Desktop\CSStudy\Ch11\obj\Debug\net6.0-windows\Project2.csproj.GenerateResource.cache
+C:\Users\502\Desktop\CSStudy\Ch11\obj\Debug\net6.0-windows\Project2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\502\Desktop\CSStudy\Ch11\obj\Debug\net6.0-windows\Project2.AssemblyInfoInputs.cache
+C:\Users\502\Desktop\CSStudy\Ch11\obj\Debug\net6.0-windows\Project2.AssemblyInfo.cs
+C:\Users\502\Desktop\CSStudy\Ch11\obj\Debug\net6.0-windows\Project2.csproj.CoreCompileInputs.cache
